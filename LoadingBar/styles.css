@@ -1,0 +1,16 @@
+.background{
+    background-color: #f4f4f4;
+    position: center;
+    width: auto;
+    height: 100px;
+    margin: 10px;
+    display: block
+}
+.bar{
+    background-color: #00f400;
+    position: center;
+    width: auto;
+    height: 100px;
+    margin: 10px;
+    display: block
+}
