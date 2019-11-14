@@ -1,16 +1,18 @@
-.background{
-    background-color: #f4f4f4;
-    position: center;
-    width: auto;
-    height: 100px;
-    margin: 10px;
-    display: block
-}
-.bar{
-    background-color: #00f400;
-    position: center;
-    width: auto;
-    height: 100px;
-    margin: 10px;
-    display: block
-}
+fieldset {
+    margin-bottom: 1rem;
+  }
+  
+  .progress {
+    width: 82%;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div {
+    width: 2rem;
+    height: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    mix-blend-mode: lighten;
+  }

@@ -5,10 +5,10 @@
 }
 #btns{
     padding: 20px;
-    background: #f4f4;
+    background: #f4f4f4;
     margin-bottom: 20px;
 }
-#btns button{
+#btns .button{
     background: #fff;
     padding: 5px 10px;
     border: 0;
@@ -42,4 +42,30 @@
 }
 .yellow{
     background-color: yellow
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      width: 1000px;
+      -webkit-appearance: none;
+      background-color: black;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: green;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      cursor: ew-resize;
+      background: white;
+      box-shadow: -1000px 0 0 1000px rgb(59, 170, 74);
+    }
+
 }
