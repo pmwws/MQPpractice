@@ -1,0 +1,48 @@
+body {
+    background-color: dimgrey;
+}
+.screen{
+    height: 700px;
+    width: 1400px;
+    border-radius: 7px;
+    background-color: #292929;
+}
+
+.window{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 7px;
+    transition: all 0.3s;
+}
+
+.window_size {
+    position: absolute;
+    font-weight: bold;
+    bottom: 3px;
+    right: 3px;
+    font-family: "Courier New";
+    text-align: center;
+}
+
+.bar{
+    height: 15px;
+    width: 100%;
+    margin: 0;
+    border-radius: 7px;
+    background-color: lightgrey;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    margin-left: 3px;
+    margin-bottom: 1.5px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+}
+
