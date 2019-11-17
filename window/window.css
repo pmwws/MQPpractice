@@ -8,6 +8,11 @@ body {
     background-color: #292929;
 }
 
+.screen_size{
+    color: white;
+    text-align: right;
+}
+
 .window{
     position: relative;
     left: 0px;
@@ -17,6 +22,10 @@ body {
     background-color: white;
     border-radius: 7px;
     transition: all 0.3s;
+}
+
+.progress{
+    width: 95%;
 }
 
 .window_size {

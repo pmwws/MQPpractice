@@ -1,11 +1,11 @@
 var win_size_dom = document.querySelector('.window_size');
 
 var win_size = {
-    width: 0,
-    height: 0
+    width: document.getElementById('a').style.width,
+    height: document.getElementById('a').style.height
 };
 
-anime({
+var initialStatus = {
     targets: win_size,
     width: 400,
     height: 600,
@@ -13,86 +13,98 @@ anime({
     easing: 'linear',
     update: function() {
         win_size_dom.innerHTML = win_size.width + ' * ' + win_size.height;
+    },
+    duration: 800
+};
+var fullScreen = {
+    targets: '.window',
+    left: '0px',
+    width: '1400px',
+    height: '700px',
+    duration: 300,
+    offset: '+=1000'
+};
+var leftHalfScreen = {
+    targets: '.window',
+    left: '0px',
+    width: '700px',
+    height: '700px',
+    duration: 300,
+    offset: '+=1000'
+};
+var rightHalfScreen = {
+    targets: '.window',
+    left: '700px',
+    duration: 300,
+    offset: '+=1000'
+};
+var randomPosition1 = {
+    targets: '.window',
+    width: '200px',
+    height: '200px',
+    duration: 300,
+    offset: '+=1000'
+};
+var randomPosition2 = {
+    targets: '.window',
+    left: '200px',
+    duration: 300,
+    offset: '+=1000',
+
+};
+
+var win_sizeChange_fullScreen = {
+    targets: win_size,
+    width: 1400,
+    height: 700,
+    round: 1,
+    easing: 'linear',
+    update: function() {
+        win_size_dom.innerHTML = win_size.width + ' * ' + win_size.height;
+    }
+};
+var win_sizeChange_halfScreen = {
+    targets: win_size,
+    width: 700,
+    height: 700,
+    round: 1,
+    easing: 'linear',
+    update: function() {
+        win_size_dom.innerHTML = win_size.width + ' * ' + win_size.height;
+    }
+};
+var win_sizeChange_200Screen = {
+    targets: win_size,
+    width: 200,
+    height: 200,
+    round: 1,
+    easing: 'linear',
+    update: function() {
+        win_size_dom.innerHTML = win_size.width + ' * ' + win_size.height;
+    }
+};
+
+var seekProgress = document.querySelector('.progress');
+const tl = anime.timeline({
+    autoplay: false,
+    easing: 'easeInOutQuad',
+    update: function(anim) {
+        seekProgress.value = tl.progress;
     }
 });
-function fullScreen() {
-    document.getElementById('a').style.left = '0px';
-    document.getElementById('a').style.top = '0px';
-    document.getElementById('a').style.width = '1400px';
-    document.getElementById('a').style.height = '700px';
 
-    anime({
-        targets: win_size,
-        width: 1400,
-        height: 700,
-        round: 1,
-        easing: 'linear',
-        update: function() {
-            win_size_dom.innerHTML = win_size.width + '*' + win_size.height;
-        }
-    });
-}
+tl.add(initialStatus)
+    .add(fullScreen)
+    .add(win_sizeChange_fullScreen)
+    .add(leftHalfScreen)
+    .add(win_sizeChange_halfScreen)
+    .add(rightHalfScreen)
+    .add(randomPosition1)
+    .add(win_sizeChange_200Screen)
+    .add(randomPosition2);
 
-function halfScreen() {
-    document.getElementById('a').style.left = '0px';
-    document.getElementById('a').style.top = '0px';
-    document.getElementById('a').style.width = '700px';
-    document.getElementById('a').style.height = '700px';
+seekProgress.oninput = function() {
+    tl.seek(tl.duration * (seekProgress.value / 100));
+};
 
-    anime({
-        targets: win_size,
-        width: 700,
-        height: 700,
-        round: 1,
-        easing: 'linear',
-        update: function() {
-            win_size_dom.innerHTML = win_size.width + '*' + win_size.height;
-        }
-    });
-}
-function randomPosition1() {
-    document.getElementById('a').style.left = '0px';
-    document.getElementById('a').style.top = '0px';
-    document.getElementById('a').style.width = '200px';
-    document.getElementById('a').style.height = '200px';
-
-    anime({
-        targets: win_size,
-        width: 200,
-        height: 200,
-        round: 1,
-        easing: 'linear',
-        update: function() {
-            win_size_dom.innerHTML = win_size.width + '*' + win_size.height;
-        }
-    });
-}
-
-function randomPosition2() {
-    document.getElementById('a').style.left = '90px';
-    document.getElementById('a').style.top = '70px';
-    document.getElementById('a').style.width = '200px';
-    document.getElementById('a').style.height = '200px';
-
-    anime({
-        targets: win_size,
-        width: 200,
-        height: 200,
-        round: 1,
-        easing: 'linear',
-        update: function() {
-            win_size_dom.innerHTML = win_size.width + '*' + win_size.height;
-        }
-    });
-}
-
-document.getElementById('button1').onclick = fullScreen;
-document.getElementById('button2').onclick = halfScreen;
-document.getElementById('button3').onclick = randomPosition1;
-document.getElementById('button4').onclick = randomPosition2;
-// document.getElementById('button4').onclick = move4;
-//
-// document.getElementById('button5').onclick = large_Width;
-// document.getElementById('button6').onclick = large_Height;
-// document.getElementById('button7').onclick = diminish_Width;
-// document.getElementById('button8').onclick = diminish_Height;
+document.getElementById('play').onclick = tl.play;
