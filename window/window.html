@@ -6,26 +6,25 @@
     <link rel= "stylesheet" href="window.css">
 </head>
 <body>
+<input class="progress" type="range" value="0" min="0" max="100"></input>
 
-    <div class='screen'>
-        <div id='a' class='window'>
-            <div class="bar">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-            <div class="window_size"></div>
+<div class='screen'>
+    <div id='a' class='window'>
+        <div class="bar">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
+        <div class="window_size"></div>
     </div>
-
-    <button type="button" id='button1'>full screen</button>
-    <button type="button" id='button2'>half screen</button>
-    <button type="button" id='button3'>random position 1</button>
-    <button type="button" id='button4'>random position 2</button>
+</div>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
-    <script src="window.js"></script>
+<button type="button" id='play'>PLAY</button>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+<script src="window.js"></script>
 </body>
 
 </html>
