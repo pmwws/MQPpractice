@@ -23,7 +23,7 @@ var playPause = anime({
 
 playButton.addEventListener('click', function() { playPause.play(); });
 pauseButton.addEventListener('click', function() { playPause.pause(); });
-progress.addEventListener('input', function() { playPause.seek(progress.value); });
+progress.addEventListener('input', function() { playPause.seek(playPause.duration * (progress.value / 100));});
 
 /*
 document.querySelector('#boxes .play').onclick = playPause.play;
