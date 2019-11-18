@@ -1,3 +1,43 @@
 html, body {
     height: 95%;
 }
+
+svg {
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    box-shadow: whitesmoke;
+}
+
+path {
+    stroke-width: 1px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 1s linear forwards;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.btn {
+    background-color: #e2e2e2;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #008CBA;
+    color: white;
+}
