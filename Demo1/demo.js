@@ -84,6 +84,12 @@ var win_sizeChange_200Screen = {
     }
 };
 
+// var mouse_path = {
+//     update: function() {
+//         draw();
+//     }
+// };
+
 var seekProgress = document.querySelector('.progress');
 const tl = anime.timeline({
     autoplay: false,
@@ -97,11 +103,13 @@ tl.add(initialStatus)
     .add(fullScreen)
     .add(win_sizeChange_fullScreen)
     .add(leftHalfScreen)
+    // .add(mouse_path)
     .add(win_sizeChange_halfScreen)
     .add(rightHalfScreen)
     .add(randomPosition1)
     .add(win_sizeChange_200Screen)
-    .add(randomPosition2);
+    .add(randomPosition2)
+;
 
 seekProgress.oninput = function() {
     tl.seek(tl.duration * (seekProgress.value / 100));
@@ -127,10 +135,7 @@ function toggleButton() {
 //mouse
 // add mouse move listener
 var s = document.getElementById('s');
-var points = [[110,10], [110,10],[300, 400], [115, 35], [88, 99]];
-var itvHandleRE;
-var index = 0;
-const reDrawInterval = 30;
+var points = [[110,10], [110,200],[300, 400], [115, 35], [88, 99]];
 
 function makeSVG(tag, attrs) {
     var el= document.createElementNS('http://www.w3.org/2000/svg', tag);
@@ -156,16 +161,9 @@ function drawOnePoint( i ) {
     createPath(x1, y1, x2, y2, s);
 }
 
-function drawPath() {
-    drawOnePoint(index);
-    index = index + 1;
-    if (index === points.length -1) {
-        clearInterval(itvHandleRE);
-        itvHandleRE = null;
-        index =0;
-    }
-}
-
 function draw() {
-    itvHandleRE = setInterval(drawPath , reDrawInterval);
+    len = points.length;
+    for(var i = 0; i < len - 1; i++){
+        drawOnePoint(i);
+    }
 }
