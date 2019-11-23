@@ -41,6 +41,7 @@ function reDrawPath() {
         itvHandleRE = null;
         index =0;
     }
+    console.log(points);
 }
 
 function reDraw1Point( i ) {

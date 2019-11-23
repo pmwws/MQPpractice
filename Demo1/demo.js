@@ -123,3 +123,49 @@ function toggleButton() {
         console.log(x.innerHTML)
     }
 }
+
+//mouse
+// add mouse move listener
+var s = document.getElementById('s');
+var points = [[110,10], [110,10],[300, 400], [115, 35], [88, 99]];
+var itvHandleRE;
+var index = 0;
+const reDrawInterval = 30;
+
+function makeSVG(tag, attrs) {
+    var el= document.createElementNS('http://www.w3.org/2000/svg', tag);
+    for (var k in attrs) {
+        el.setAttribute(k, attrs[k]);
+    }
+    return el;
+}
+
+function createPath(x0, y0, x1, y1, svg) {
+    x1 = x1-x0;
+    y1 = y1-y0;
+    var string = 'm ' + x0 +" "+ y0 + 'l ' + x1 + " " + y1;
+    var path = makeSVG('path', {d: string, 'className': 'path', stroke: 'black'});
+    svg.appendChild(path)
+}
+
+function drawOnePoint( i ) {
+    x1 = points[i][0];
+    y1 = points[i][1];
+    x2 = points[i + 1][0];
+    y2 = points[i + 1][1];
+    createPath(x1, y1, x2, y2, s);
+}
+
+function drawPath() {
+    drawOnePoint(index);
+    index = index + 1;
+    if (index === points.length -1) {
+        clearInterval(itvHandleRE);
+        itvHandleRE = null;
+        index =0;
+    }
+}
+
+function draw() {
+    itvHandleRE = setInterval(drawPath , reDrawInterval);
+}
