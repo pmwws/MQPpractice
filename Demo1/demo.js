@@ -106,6 +106,7 @@ tl.add(initialStatus)
 seekProgress.oninput = function() {
     tl.seek(tl.duration * (seekProgress.value / 100));
 };
+document.getElementById('restart').onclick = tl.restart;
 
 document.getElementById('play').onclick = toggleButton;
 
