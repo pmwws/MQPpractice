@@ -107,4 +107,17 @@ seekProgress.oninput = function() {
     tl.seek(tl.duration * (seekProgress.value / 100));
 };
 document.getElementById('restart').onclick = tl.restart;
-document.getElementById('play').onclick = tl.play;
+
+document.getElementById('play').onclick = toggleButton;
+
+function toggleButton() {
+    var x = document.getElementById("play");
+    if (x.innerHTML === 'play') {
+        x.innerHTML = 'pause';
+        x.onclick = tl.play;
+    } else {
+        x.innerHTML = 'play';
+        x.onclick = tl.pause;
+
+    }
+}
