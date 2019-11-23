@@ -110,13 +110,15 @@ seekProgress.oninput = function() {
 document.getElementById('play').onclick = toggleButton;
 
 function toggleButton() {
-    var x = document.getElementById("play");
+    let x = document.getElementById("play");
     if (x.innerHTML === 'play') {
         x.innerHTML = 'pause';
-        x.onclick = tl.play;
-    } else {
+        tl.play();
+        console.log(x.innerHTML);
+    }
+    else if(x.innerHTML === 'pause'){
         x.innerHTML = 'play';
-        x.onclick = tl.pause;
-
+        tl.pause();
+        console.log(x.innerHTML)
     }
 }
