@@ -123,3 +123,37 @@ function toggleButton() {
         console.log(x.innerHTML)
     }
 }
+
+class keystroke{
+    constructor(key, start, end){
+        this.key = key;
+        this.start = start;
+        this.end = end;
+        this.width = end - start;
+    }
+}
+var keystrokes = [];
+function generator(){
+    var i;
+    for (i = 0; i < 20; i++){
+        if(Math.random() > 0.5){
+            width = Math.ceil(Math.random() * 5);
+            keystrokes.push(new keystroke('a', i*10, i*10 + width));
+        }
+        
+    }    
+}
+document.getElementById("Add").onclick = function keys(){
+    generator();
+    keybox = document.getElementById("keyboard");
+
+    for(stroke of keystrokes){
+        console.log("|" + stroke.key + " " + stroke.start + " " + stroke.width);
+        box = document.createElement("div");
+        box.setAttribute("class", "box");
+        box.style.offset = stroke.start + "px"
+        box.style.width = stroke.width + "px";
+
+        keybox.appendChild(box);
+    }
+};

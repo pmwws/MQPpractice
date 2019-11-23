@@ -54,4 +54,13 @@ body {
     display: inline-block;
     background-color: black;
 }
-
+.box{
+    display: inline-block;
+    height: 10px;
+    background-color: blue;
+}
+#keyboard{
+    height: 30px;
+    width: 95%;
+    background-color: chartreuse;
+}
