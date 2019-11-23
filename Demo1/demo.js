@@ -137,8 +137,9 @@ function generator(){
     var i;
     for (i = 0; i < 20; i++){
         if(Math.random() > 0.5){
-            width = Math.ceil(Math.random() * 5);
-            keystrokes.push(new keystroke('a', i*10, i*10 + width));
+            width = Math.ceil(Math.random() * 50);
+            key = Math.random() *3;
+            keystrokes.push(new keystroke(key, i*20, i*20 + width));
         }
         
     }    
@@ -146,14 +147,35 @@ function generator(){
 document.getElementById("Add").onclick = function keys(){
     generator();
     keybox = document.getElementById("keyboard");
-
-    for(stroke of keystrokes){
-        console.log("|" + stroke.key + " " + stroke.start + " " + stroke.width);
+    end = 450;
+    lastEnd = 0;
+    maxEnd = 0
+    level = 0;
+    maxLevel = 0;
+    for(stroke of keystrokes){ 
+        start = ((stroke.start * keybox.clientWidth)/end) - maxEnd;
+        width = (stroke.width * keybox.clientWidth)/end;
+        console.log(lastEnd + " | " + start);
+        if(start < 0){
+            level++;
+        }else if(level > 0){
+            level = 0;
+        }
+        height = level * 10;
         box = document.createElement("div");
         box.setAttribute("class", "box");
-        box.style.offset = stroke.start + "px"
-        box.style.width = stroke.width + "px";
+        box.style.position = "relative";
+        box.style.top = height + "px"; 
+        box.style.left = start + "px";
+        box.style.width = width + "px";
 
         keybox.appendChild(box);
+        if(maxEnd < (stroke.end * keybox.clientWidth)/end){
+            maxEnd = (stroke.end * keybox.clientWidth)/end;
+        }
+        if(level > maxLevel){
+            maxLevel = level;
+        }
     }
+    keybox.style.height = (maxLevel + 2) *10 + "px";
 };
