@@ -2,9 +2,10 @@ body {
     background-color: dimgrey;
 }
 .screen{
-    height: 700px;
+    height: 715px;
     width: 1400px;
     border-radius: 7px;
+    padding: 10px;
     background-color: #292929;
 }
 
@@ -64,5 +65,15 @@ body {
     height: 10px;
     width: 95%;
     background-color: chartreuse;
+    border-radius: 5px;
+    margin-bottom: 10px;
     overflow: hidden;
 }
+
+/*SVG style*/
+svg {
+    background-color: white;
+    border-radius: 7px;
+}
+
+

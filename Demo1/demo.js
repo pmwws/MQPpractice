@@ -1,4 +1,8 @@
 var win_size_dom = document.querySelector('.window_size');
+var points = [[0,0], [200,200], [115, 35], [88, 99]];
+var s = document.getElementById('s');
+var command = 'M ' + points[0][0] + " " + points[0][1] + " ";
+var path = document.getElementById("path");
 
 var win_size = {
     width: document.getElementById('a').style.width,
@@ -84,6 +88,23 @@ var win_sizeChange_200Screen = {
     }
 };
 
+var mouse_path = {
+    targets: "path",
+    d: function() {
+        len = points.length;
+        for(var i = 1; i < len; i++){
+            x1 = points[i][0];
+            y1 = points[i][1];
+            var newCommand = 'L ' +  x1 + " " + y1 + " ";
+            command = command.concat(newCommand);
+        }
+        path.setAttribute("d", command);
+    },
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: "easeInQuad",
+    duration: 4500,
+};
+
 var seekProgress = document.querySelector('.progress');
 const tl = anime.timeline({
     autoplay: false,
@@ -101,7 +122,9 @@ tl.add(initialStatus)
     .add(rightHalfScreen)
     .add(randomPosition1)
     .add(win_sizeChange_200Screen)
-    .add(randomPosition2);
+    .add(mouse_path)
+    .add(randomPosition2)
+;
 
 seekProgress.oninput = function() {
     tl.seek(tl.duration * (seekProgress.value / 100));
