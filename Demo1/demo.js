@@ -1,4 +1,8 @@
 var win_size_dom = document.querySelector('.window_size');
+var points = [[0,0], [200,200], [115, 35], [88, 99]];
+var s = document.getElementById('s');
+var command = 'M ' + points[0][0] + " " + points[0][1] + " ";
+var path = document.getElementById("path");
 
 var win_size = {
     width: document.getElementById('a').style.width,
@@ -84,11 +88,22 @@ var win_sizeChange_200Screen = {
     }
 };
 
-// var mouse_path = {
-//     update: function() {
-//         draw();
-//     }
-// };
+var mouse_path = {
+    targets: "path",
+    d: function() {
+        len = points.length;
+        for(var i = 1; i < len; i++){
+            x1 = points[i][0];
+            y1 = points[i][1];
+            var newCommand = 'L ' +  x1 + " " + y1 + " ";
+            command = command.concat(newCommand);
+        }
+        path.setAttribute("d", command);
+    },
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: "easeInQuad",
+    duration: 4500,
+};
 
 var seekProgress = document.querySelector('.progress');
 const tl = anime.timeline({
@@ -103,11 +118,11 @@ tl.add(initialStatus)
     .add(fullScreen)
     .add(win_sizeChange_fullScreen)
     .add(leftHalfScreen)
-    // .add(mouse_path)
     .add(win_sizeChange_halfScreen)
     .add(rightHalfScreen)
     .add(randomPosition1)
     .add(win_sizeChange_200Screen)
+    .add(mouse_path)
     .add(randomPosition2)
 ;
 
@@ -132,38 +147,3 @@ function toggleButton() {
     }
 }
 
-//mouse
-// add mouse move listener
-var s = document.getElementById('s');
-var points = [[110,10], [110,200],[300, 400], [115, 35], [88, 99]];
-
-function makeSVG(tag, attrs) {
-    var el= document.createElementNS('http://www.w3.org/2000/svg', tag);
-    for (var k in attrs) {
-        el.setAttribute(k, attrs[k]);
-    }
-    return el;
-}
-
-function createPath(x0, y0, x1, y1, svg) {
-    x1 = x1-x0;
-    y1 = y1-y0;
-    var string = 'm ' + x0 +" "+ y0 + 'l ' + x1 + " " + y1;
-    var path = makeSVG('path', {d: string, 'className': 'path', stroke: 'black'});
-    svg.appendChild(path)
-}
-
-function drawOnePoint( i ) {
-    x1 = points[i][0];
-    y1 = points[i][1];
-    x2 = points[i + 1][0];
-    y2 = points[i + 1][1];
-    createPath(x1, y1, x2, y2, s);
-}
-
-function draw() {
-    len = points.length;
-    for(var i = 0; i < len - 1; i++){
-        drawOnePoint(i);
-    }
-}
