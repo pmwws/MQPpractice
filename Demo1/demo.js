@@ -135,13 +135,13 @@ document.getElementById('play').onclick = toggleButton;
 
 function toggleButton() {
     let x = document.getElementById("play");
-    if (x.innerHTML === 'play') {
-        x.innerHTML = 'pause';
+    if (x.innerHTML === 'Play') {
+        x.innerHTML = 'Pause';
         tl.play();
         console.log(x.innerHTML);
     }
-    else if(x.innerHTML === 'pause'){
-        x.innerHTML = 'play';
+    else if(x.innerHTML === 'Pause'){
+        x.innerHTML = 'Play';
         tl.pause();
         console.log(x.innerHTML)
     }
