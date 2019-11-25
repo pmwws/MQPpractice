@@ -70,10 +70,35 @@ body {
     overflow: hidden;
 }
 
+/*Button style*/
+.btn {
+    background-color: #e2e2e2;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #008CBA;
+    color: white;
+}
 /*SVG style*/
 svg {
-    background-color: white;
+    background-color: #fcfffa;
     border-radius: 7px;
+}
+
+path {
+    stroke-width: 2px;
 }
 
 
