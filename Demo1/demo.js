@@ -1,5 +1,29 @@
 var win_size_dom = document.querySelector('.window_size');
-var points = [[0,0], [200,200], [115, 35], [88, 99]];
+var points = [
+    [27,183],
+    [30,172],
+    [34,159],
+    [36,145],
+    [38,131],
+    [39,125],
+    [39,114],
+    [39,110],
+    [39,104],
+    [39,100],
+    [39,197],
+    [39,195],
+    [38,194],
+    [38,193],
+    [38,193],
+    [38,115],
+    [45,155],
+    [52,106],
+    [82,119],
+    [39,113],
+    [10,105],
+    [7,158],
+    [15,71],
+];
 var s = document.getElementById('s');
 var command = 'M ' + points[0][0] + " " + points[0][1] + " ";
 var path = document.getElementById("path");
