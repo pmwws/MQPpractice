@@ -58,9 +58,11 @@ body {
     display: inline-block;
     height: 10px;
     background-color: blue;
+    padding: 0px;
 }
 #keyboard{
     height: 10px;
     width: 95%;
     background-color: chartreuse;
+    overflow: hidden;
 }
