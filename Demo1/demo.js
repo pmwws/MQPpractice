@@ -24,6 +24,13 @@ var points = [
     [7,158],
     [15,71],
 ];
+
+var clicks = [
+    [45,193],
+    [48,115],
+    [40,155],
+];
+
 var s = document.getElementById('s');
 var command = 'M ' + points[0][0] + " " + points[0][1] + " ";
 var path = document.getElementById("path");
@@ -50,7 +57,7 @@ var fullScreen = {
     width: '1400px',
     height: '700px',
     duration: 300,
-    offset: '+=1000'
+    offset: '+=1000',
 };
 var leftHalfScreen = {
     targets: '.window',
@@ -58,27 +65,34 @@ var leftHalfScreen = {
     width: '700px',
     height: '700px',
     duration: 300,
-    offset: '+=1000'
+    offset: '+=1000',
+
 };
 var rightHalfScreen = {
     targets: '.window',
     left: '700px',
     duration: 300,
-    offset: '+=1000'
+    offset: '+=1000',
 };
 var randomPosition1 = {
     targets: '.window',
     width: '200px',
     height: '200px',
     duration: 300,
-    offset: '+=1000'
+    offset: '+=1000',
 };
 var randomPosition2 = {
     targets: '.window',
     left: '200px',
     duration: 300,
     offset: '+=1000',
-
+    complete: function() {
+        let circles = document.getElementsByTagName("circle");
+        s.removeChild(path);
+        while(circles.length !== 0){
+            s.removeChild(circles[0]);
+        }
+    }
 };
 
 var win_sizeChange_fullScreen = {
@@ -112,6 +126,7 @@ var win_sizeChange_200Screen = {
     }
 };
 
+//mouse movement
 var mouse_path = {
     targets: "path",
     d: function() {
@@ -129,6 +144,28 @@ var mouse_path = {
     duration: 4500,
 };
 
+//mouse clicks
+function makeSVG(tag, attrs) {
+    var el= document.createElementNS('http://www.w3.org/2000/svg', tag);
+    for (var k in attrs) {
+        el.setAttribute(k, attrs[k]);
+    }
+    return el;
+}
+
+var mouse_click = {
+    targets: "s",
+    complete: function() {
+        len = clicks.length;
+        for(var i = 0; i < len; i++) {
+            pos_x = clicks[i][0];
+            pos_y = clicks[i][1];
+            var click = makeSVG('circle', {cx: pos_x, cy: pos_y, r: '2',  stroke: 'blue'});
+            s.appendChild(click);
+        }
+    },
+};
+
 var seekProgress = document.querySelector('.progress');
 const tl = anime.timeline({
     autoplay: false,
@@ -140,6 +177,7 @@ const tl = anime.timeline({
 
 tl.add(initialStatus)
     .add(fullScreen)
+    .add(mouse_click)
     .add(win_sizeChange_fullScreen)
     .add(leftHalfScreen)
     .add(win_sizeChange_halfScreen)
@@ -196,7 +234,7 @@ document.getElementById("Add").onclick = function keys(){
     keybox = document.getElementById("keyboard");
     end = 1000;
     lastEnd = 0;
-    maxEnd = 0
+    maxEnd = 0;
     level = 0;
     maxLevel = 0;
     console.log("WIDTH " + keybox.clientWidth);
@@ -223,7 +261,6 @@ document.getElementById("Add").onclick = function keys(){
         }else{
             box.style.backgroundColor = "teal";
         }
-        
 
         keybox.appendChild(box);
         lastEnd = start + width;
