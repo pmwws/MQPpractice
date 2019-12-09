@@ -319,18 +319,20 @@ function generator(){
             keystrokes.push(new keystroke(key, i*20, i*20 + width));
         }
         
-    }    
+    }
+
+
 }
-document.getElementById("Add").onclick = function keys(){
-    generator();
+function keys(){
     keybox = document.getElementById("keyboard");
-    end = 1000;
+    end = 18240; //CHANGE THIS SHOULD NOT BE HARD-CODED
     lastEnd = 0;
     maxEnd = 0;
     level = 0;
     maxLevel = 0;
     console.log("WIDTH " + keybox.clientWidth);
-    for(stroke of keystrokes){ 
+    start = 0;
+    for(stroke of keystrokes){
         start = ((stroke.start * keybox.clientWidth)/end) - lastEnd;
         width = (stroke.width * keybox.clientWidth)/end;
 
@@ -343,7 +345,7 @@ document.getElementById("Add").onclick = function keys(){
         box = document.createElement("div");
         box.setAttribute("class", "box");
         box.style.position = "relative";
-        box.style.top = height + "px"; 
+        box.style.top = height + "px";
         box.style.left = start + "px";
         box.style.width = width + "px";
         if(stroke.key === 1){
@@ -389,6 +391,23 @@ function readFileAsString() {
         //console.log('File content:', jstring);
         var indata = JSON.parse(jstring);
         console.log(indata);
+
+        for (keyDown of indata.keyboardEvents.keyDown) {
+            console.log(keyDown);
+            var keytype = 3;
+            if (keyDown.altkey === true){
+                keytype = 1;
+            } else if(keyDown.ctrlkey === true) {
+                keytype = 2;
+            }
+            for (keyUp of indata.keyboardEvents.keyUp) {
+                if (keyUp.sequenceNumber === keyDown.sequenceNumber) {
+                    keystrokes.push(new keystroke(keytype, keyDown.timestamp, keyUp.timestamp));
+                }
+            }
+        }
+
+        keys();
     };
     reader.readAsText(files[0]);
 }
