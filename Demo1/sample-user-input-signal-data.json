@@ -1,0 +1,3464 @@
+{
+  "keyboardEvents": {
+    "keyDown": [
+      {
+        "eventType": 1,
+        "timestamp": 6297,
+        "sequenceNumber": 30,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 6409,
+        "sequenceNumber": 31,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 6489,
+        "sequenceNumber": 32,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 6652,
+        "sequenceNumber": 33,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 6813,
+        "sequenceNumber": 34,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 6849,
+        "sequenceNumber": 35,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 6897,
+        "sequenceNumber": 36,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 11747,
+        "sequenceNumber": 37,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": true,
+        "shiftKey": false,
+        "keyCode": 91,
+        "target": {
+          "id": "",
+          "hidden": false,
+          "tagName": "BODY"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 11904,
+        "sequenceNumber": 38,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": true,
+        "shiftKey": false,
+        "keyCode": 77,
+        "target": {
+          "id": "",
+          "hidden": false,
+          "tagName": "BODY"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 15293,
+        "sequenceNumber": 39,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": true,
+        "shiftKey": false,
+        "keyCode": 91,
+        "target": {
+          "id": "",
+          "hidden": false,
+          "tagName": "BODY"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 16556,
+        "sequenceNumber": 40,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": true,
+        "shiftKey": false,
+        "keyCode": 91,
+        "target": {
+          "id": "",
+          "hidden": false,
+          "tagName": "BODY"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      }
+    ],
+    "keyUp": [
+      {
+        "eventType": 2,
+        "timestamp": 6200,
+        "sequenceNumber": 27,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 6268,
+        "sequenceNumber": 28,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 6316,
+        "sequenceNumber": 29,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 6410,
+        "sequenceNumber": 30,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 6520,
+        "sequenceNumber": 31,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 6560,
+        "sequenceNumber": 32,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 6731,
+        "sequenceNumber": 33,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 6904,
+        "sequenceNumber": 34,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 6946,
+        "sequenceNumber": 35,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 6993,
+        "sequenceNumber": 36,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 16036,
+        "sequenceNumber": 39,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 91,
+        "target": {
+          "id": "",
+          "hidden": false,
+          "tagName": "BODY"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 18240,
+        "sequenceNumber": 40,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 91,
+        "target": {
+          "id": "",
+          "hidden": false,
+          "tagName": "BODY"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      }
+    ],
+    "keyPress": [
+      {
+        "eventType": 3,
+        "timestamp": 6297,
+        "sequenceNumber": 30,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 3,
+        "timestamp": 6409,
+        "sequenceNumber": 31,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 3,
+        "timestamp": 6490,
+        "sequenceNumber": 32,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 3,
+        "timestamp": 6652,
+        "sequenceNumber": 33,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 3,
+        "timestamp": 6813,
+        "sequenceNumber": 34,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 3,
+        "timestamp": 6849,
+        "sequenceNumber": 35,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 3,
+        "timestamp": 6898,
+        "sequenceNumber": 36,
+        "altKey": false,
+        "ctrlKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "keyCode": 1,
+        "target": {
+          "id": "inputPassword",
+          "name": "",
+          "typeAttr": "password",
+          "hidden": false,
+          "tagName": "INPUT"
+        },
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      }
+    ]
+  },
+  "keyboardEvents2": [
+    {
+      "eventType": 2,
+      "timestamp": 5589,
+      "sequenceNumber": 25,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 5787,
+      "sequenceNumber": 26,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 5787,
+      "sequenceNumber": 26,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 5971,
+      "sequenceNumber": 26,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6077,
+      "sequenceNumber": 27,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6077,
+      "sequenceNumber": 27,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6169,
+      "sequenceNumber": 28,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6169,
+      "sequenceNumber": 28,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6189,
+      "sequenceNumber": 29,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6189,
+      "sequenceNumber": 29,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6200,
+      "sequenceNumber": 27,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6268,
+      "sequenceNumber": 28,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6297,
+      "sequenceNumber": 30,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6297,
+      "sequenceNumber": 30,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6316,
+      "sequenceNumber": 29,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6409,
+      "sequenceNumber": 31,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6409,
+      "sequenceNumber": 31,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6410,
+      "sequenceNumber": 30,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6489,
+      "sequenceNumber": 32,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6490,
+      "sequenceNumber": 32,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6520,
+      "sequenceNumber": 31,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6560,
+      "sequenceNumber": 32,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6652,
+      "sequenceNumber": 33,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6652,
+      "sequenceNumber": 33,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6731,
+      "sequenceNumber": 33,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6813,
+      "sequenceNumber": 34,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6813,
+      "sequenceNumber": 34,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6849,
+      "sequenceNumber": 35,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6849,
+      "sequenceNumber": 35,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6897,
+      "sequenceNumber": 36,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6898,
+      "sequenceNumber": 36,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6904,
+      "sequenceNumber": 34,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6946,
+      "sequenceNumber": 35,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6993,
+      "sequenceNumber": 36,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "target": {
+        "id": "inputPassword",
+        "name": "",
+        "nodeType": 1,
+        "tagName": "INPUT"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 11747,
+      "sequenceNumber": 37,
+      "modifierKeys": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "keyCode": 91,
+      "target": {
+        "id": "",
+        "nodeType": 1,
+        "tagName": "BODY"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 11904,
+      "sequenceNumber": 38,
+      "modifierKeys": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "keyCode": 77,
+      "target": {
+        "id": "",
+        "nodeType": 1,
+        "tagName": "BODY"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 15293,
+      "sequenceNumber": 39,
+      "modifierKeys": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "keyCode": 91,
+      "target": {
+        "id": "",
+        "nodeType": 1,
+        "tagName": "BODY"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 16036,
+      "sequenceNumber": 39,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 91,
+      "target": {
+        "id": "",
+        "nodeType": 1,
+        "tagName": "BODY"
+      }
+    },
+    {
+      "eventType": 1,
+      "timestamp": 16556,
+      "sequenceNumber": 40,
+      "modifierKeys": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "keyCode": 91,
+      "target": {
+        "id": "",
+        "nodeType": 1,
+        "tagName": "BODY"
+      }
+    },
+    {
+      "eventType": 2,
+      "timestamp": 18240,
+      "sequenceNumber": 40,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 91,
+      "target": {
+        "id": "",
+        "nodeType": 1,
+        "tagName": "BODY"
+      }
+    }
+  ],
+  "keyboardEvents3": [
+    {
+      "eventType": 2,
+      "timestamp": 5588.260000004084,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 5786.24500001024,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 5786.4450000051875,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 5970.365000001038,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6075.760000006994,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6075.990000012098,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6167.610000004061,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6167.88500000257,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6187.680000002729,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6187.910000007832,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6198.880000010831,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6267.29499999783,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6296.110000010231,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6296.375000005355,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6314.640000011423,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6407.940000004601,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6408.300000010058,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6408.869999999297,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6488.3800000097835,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6488.705000010668,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6519.3750000034925,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6559.4249999994645,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6650.625000009313,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6650.850000005448,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6730.380000008154,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6812.1700000046985,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6812.400000009802,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6848.015000010491,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6848.215000005439,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 6896.30500000203,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 3,
+      "timestamp": 6896.520000009332,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6903.369999999995,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6945.105000006151,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 6992.10000000312,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 1,
+      "targetId": "inputPassword",
+      "targetName": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 11746.120000010706,
+      "modifierKeys": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "keyCode": 91,
+      "targetId": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 11902.630000011413,
+      "modifierKeys": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "keyCode": 77,
+      "targetId": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 15292.215000008582,
+      "modifierKeys": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "keyCode": 91,
+      "targetId": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 16035.130000003846,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 91,
+      "targetId": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 1,
+      "timestamp": 16555.095000003348,
+      "modifierKeys": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "keyCode": 91,
+      "targetId": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    },
+    {
+      "eventType": 2,
+      "timestamp": 18238.790000003064,
+      "modifierKeys": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyCode": 91,
+      "targetId": "",
+      "instanceOfUIEvent": true,
+      "markedAsTrusted": true
+    }
+  ],
+  "mouseEvents": {
+    "mouseDown": [],
+    "mouseUp": [],
+    "mouseClick": [],
+    "mouseMove": [
+      {
+        "eventType": 4,
+        "timestamp": 43511,
+        "x": 127,
+        "y": 383,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43519,
+        "x": 130,
+        "y": 372,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43527,
+        "x": 134,
+        "y": 359,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43534,
+        "x": 136,
+        "y": 345,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43543,
+        "x": 138,
+        "y": 331,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43551,
+        "x": 139,
+        "y": 325,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43560,
+        "x": 139,
+        "y": 314,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43567,
+        "x": 139,
+        "y": 310,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43575,
+        "x": 139,
+        "y": 304,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43584,
+        "x": 139,
+        "y": 300,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43591,
+        "x": 139,
+        "y": 297,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43600,
+        "x": 139,
+        "y": 295,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43608,
+        "x": 138,
+        "y": 294,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43617,
+        "x": 138,
+        "y": 294,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43624,
+        "x": 138,
+        "y": 293,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 43632,
+        "x": 137,
+        "y": 293,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 44031,
+        "x": 137,
+        "y": 304,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 44039,
+        "x": 137,
+        "y": 306,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 44047,
+        "x": 137,
+        "y": 310,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 44055,
+        "x": 137,
+        "y": 315,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 44063,
+        "x": 139,
+        "y": 324,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 44071,
+        "x": 141,
+        "y": 332,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 44080,
+        "x": 145,
+        "y": 355,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 44087,
+        "x": 152,
+        "y": 406,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 60055,
+        "x": 82,
+        "y": 419,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 60055,
+        "x": 82,
+        "y": 419,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 60063,
+        "x": 39,
+        "y": 313,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 60072,
+        "x": 10,
+        "y": 205,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 60080,
+        "x": 7,
+        "y": 158,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 4,
+        "timestamp": 63266,
+        "x": 15,
+        "y": 71,
+        "button": null,
+        "target": null,
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      }
+    ]
+  },
+  "mouseEvents2": {
+    "mouseButtonEvents": [
+      {
+        "eventType": 1,
+        "timestamp": 735,
+        "x": 846,
+        "y": 293,
+        "button": 0,
+        "target": {
+          "id": "inputEmail",
+          "name": "",
+          "nodeType": 1,
+          "tagName": "INPUT"
+        },
+        "sequenceNumber": 0
+      },
+      {
+        "eventType": 2,
+        "timestamp": 808,
+        "x": 846,
+        "y": 293,
+        "button": 0,
+        "target": {
+          "id": "inputEmail",
+          "name": "",
+          "nodeType": 1,
+          "tagName": "INPUT"
+        },
+        "sequenceNumber": 0
+      },
+      {
+        "eventType": 3,
+        "timestamp": 809,
+        "x": 846,
+        "y": 293,
+        "button": 0,
+        "target": {
+          "id": "inputEmail",
+          "name": "",
+          "nodeType": 1,
+          "tagName": "INPUT"
+        },
+        "sequenceNumber": 0
+      },
+      {
+        "eventType": 1,
+        "timestamp": 8521,
+        "x": 1070,
+        "y": 70,
+        "button": 0,
+        "target": {
+          "id": "",
+          "nodeType": 1,
+          "tagName": "DIV"
+        },
+        "sequenceNumber": 1
+      },
+      {
+        "eventType": 2,
+        "timestamp": 8619,
+        "x": 1070,
+        "y": 70,
+        "button": 0,
+        "target": {
+          "id": "",
+          "nodeType": 1,
+          "tagName": "DIV"
+        },
+        "sequenceNumber": 1
+      },
+      {
+        "eventType": 3,
+        "timestamp": 8619,
+        "x": 1070,
+        "y": 70,
+        "button": 0,
+        "target": {
+          "id": "",
+          "nodeType": 1,
+          "tagName": "DIV"
+        },
+        "sequenceNumber": 1
+      }
+    ],
+    "mouseMoveEvents": {
+      "recent": [
+        {
+          "eventType": 4,
+          "timestamp": 42498,
+          "x": 127,
+          "y": 416
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42506,
+          "x": 127,
+          "y": 414
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42514,
+          "x": 127,
+          "y": 411
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42522,
+          "x": 126,
+          "y": 409
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42530,
+          "x": 126,
+          "y": 407
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42538,
+          "x": 125,
+          "y": 406
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42547,
+          "x": 125,
+          "y": 404
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42555,
+          "x": 125,
+          "y": 404
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42563,
+          "x": 124,
+          "y": 403
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42571,
+          "x": 124,
+          "y": 403
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42579,
+          "x": 123,
+          "y": 403
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42587,
+          "x": 123,
+          "y": 403
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42595,
+          "x": 122,
+          "y": 403
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42603,
+          "x": 120,
+          "y": 403
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42611,
+          "x": 119,
+          "y": 403
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43470,
+          "x": 119,
+          "y": 402
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43478,
+          "x": 119,
+          "y": 401
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43486,
+          "x": 121,
+          "y": 397
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43495,
+          "x": 122,
+          "y": 394
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43502,
+          "x": 124,
+          "y": 391
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43511,
+          "x": 127,
+          "y": 383
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43519,
+          "x": 130,
+          "y": 372
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43527,
+          "x": 134,
+          "y": 359
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43534,
+          "x": 136,
+          "y": 345
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43543,
+          "x": 138,
+          "y": 331
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43551,
+          "x": 139,
+          "y": 325
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43560,
+          "x": 139,
+          "y": 314
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43567,
+          "x": 139,
+          "y": 310
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43575,
+          "x": 139,
+          "y": 304
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43584,
+          "x": 139,
+          "y": 300
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43591,
+          "x": 139,
+          "y": 297
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43600,
+          "x": 139,
+          "y": 295
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43608,
+          "x": 138,
+          "y": 294
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43616,
+          "x": 138,
+          "y": 294
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43624,
+          "x": 138,
+          "y": 293
+        },
+        {
+          "eventType": 4,
+          "timestamp": 43632,
+          "x": 137,
+          "y": 293
+        },
+        {
+          "eventType": 4,
+          "timestamp": 44031,
+          "x": 137,
+          "y": 304
+        },
+        {
+          "eventType": 4,
+          "timestamp": 44039,
+          "x": 137,
+          "y": 306
+        },
+        {
+          "eventType": 4,
+          "timestamp": 44047,
+          "x": 137,
+          "y": 310
+        },
+        {
+          "eventType": 4,
+          "timestamp": 44055,
+          "x": 137,
+          "y": 315
+        },
+        {
+          "eventType": 4,
+          "timestamp": 44063,
+          "x": 139,
+          "y": 324
+        },
+        {
+          "eventType": 4,
+          "timestamp": 44071,
+          "x": 141,
+          "y": 332
+        },
+        {
+          "eventType": 4,
+          "timestamp": 44079,
+          "x": 145,
+          "y": 355
+        },
+        {
+          "eventType": 4,
+          "timestamp": 44087,
+          "x": 152,
+          "y": 406
+        },
+        {
+          "eventType": 4,
+          "timestamp": 60055,
+          "x": 82,
+          "y": 419
+        },
+        {
+          "eventType": 4,
+          "timestamp": 60055,
+          "x": 82,
+          "y": 419
+        },
+        {
+          "eventType": 4,
+          "timestamp": 60063,
+          "x": 39,
+          "y": 313
+        },
+        {
+          "eventType": 4,
+          "timestamp": 60072,
+          "x": 10,
+          "y": 205
+        },
+        {
+          "eventType": 4,
+          "timestamp": 60080,
+          "x": 7,
+          "y": 158
+        },
+        {
+          "eventType": 4,
+          "timestamp": 63266,
+          "x": 15,
+          "y": 71
+        }
+      ],
+      "throttled": [
+        {
+          "eventType": 4,
+          "timestamp": 18161,
+          "x": 886,
+          "y": 388
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18184,
+          "x": 882,
+          "y": 384
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18209,
+          "x": 870,
+          "y": 371
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18234,
+          "x": 851,
+          "y": 352
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18258,
+          "x": 834,
+          "y": 338
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18283,
+          "x": 824,
+          "y": 329
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18306,
+          "x": 819,
+          "y": 325
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18331,
+          "x": 818,
+          "y": 325
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18512,
+          "x": 818,
+          "y": 325
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18535,
+          "x": 822,
+          "y": 326
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18835,
+          "x": 821,
+          "y": 326
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18859,
+          "x": 799,
+          "y": 326
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18884,
+          "x": 748,
+          "y": 331
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18908,
+          "x": 601,
+          "y": 361
+        },
+        {
+          "eventType": 4,
+          "timestamp": 18933,
+          "x": 499,
+          "y": 397
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19314,
+          "x": 357,
+          "y": 433
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19338,
+          "x": 326,
+          "y": 377
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19364,
+          "x": 278,
+          "y": 285
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19388,
+          "x": 239,
+          "y": 186
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19412,
+          "x": 211,
+          "y": 108
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19437,
+          "x": 199,
+          "y": 81
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19461,
+          "x": 190,
+          "y": 65
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19485,
+          "x": 188,
+          "y": 59
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19746,
+          "x": 188,
+          "y": 60
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19770,
+          "x": 187,
+          "y": 92
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19794,
+          "x": 220,
+          "y": 205
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19819,
+          "x": 285,
+          "y": 325
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19842,
+          "x": 347,
+          "y": 403
+        },
+        {
+          "eventType": 4,
+          "timestamp": 19867,
+          "x": 373,
+          "y": 422
+        },
+        {
+          "eventType": 4,
+          "timestamp": 20055,
+          "x": 385,
+          "y": 426
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42457,
+          "x": 126,
+          "y": 436
+        },
+        {
+          "eventType": 4,
+          "timestamp": 42481,
+          "x": 127,
+          "y": 427
+        }
+      ]
+    }
+  },
+  "mouseEvents3": {
+    "mouseButtonEvents": [
+      {
+        "eventType": 1,
+        "timestamp": 734.1050000104588,
+        "documentRelativeX": 846,
+        "documentRelativeY": 293,
+        "targetRelativeX": 675,
+        "targetRelativeY": 21,
+        "button": 0,
+        "targetId": "inputEmail",
+        "targetName": "",
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 807.6000000000931,
+        "documentRelativeX": 846,
+        "documentRelativeY": 293,
+        "targetRelativeX": 675,
+        "targetRelativeY": 21,
+        "button": 0,
+        "targetId": "inputEmail",
+        "targetName": "",
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 3,
+        "timestamp": 807.7600000106031,
+        "documentRelativeX": 846,
+        "documentRelativeY": 293,
+        "targetRelativeX": 675,
+        "targetRelativeY": 21,
+        "button": 0,
+        "targetId": "inputEmail",
+        "targetName": "",
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 1,
+        "timestamp": 8520.22500000021,
+        "documentRelativeX": 1070,
+        "documentRelativeY": 70,
+        "targetRelativeX": 974,
+        "targetRelativeY": 70,
+        "button": 0,
+        "targetId": "",
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 2,
+        "timestamp": 8617.84500000067,
+        "documentRelativeX": 1070,
+        "documentRelativeY": 70,
+        "targetRelativeX": 974,
+        "targetRelativeY": 70,
+        "button": 0,
+        "targetId": "",
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      },
+      {
+        "eventType": 3,
+        "timestamp": 8617.92499999865,
+        "documentRelativeX": 1070,
+        "documentRelativeY": 70,
+        "targetRelativeX": 974,
+        "targetRelativeY": 70,
+        "button": 0,
+        "targetId": "",
+        "instanceOfUIEvent": true,
+        "markedAsTrusted": true
+      }
+    ],
+    "mouseMoveEvents": {
+      "recent": [
+        {
+          "timestamp": 42496.32000000565,
+          "documentRelativeX": 127,
+          "documentRelativeY": 473,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42504.48000000324,
+          "documentRelativeX": 127,
+          "documentRelativeY": 471,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42512.48499999929,
+          "documentRelativeX": 127,
+          "documentRelativeY": 468,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42520.795000004,
+          "documentRelativeX": 126,
+          "documentRelativeY": 466,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42528.76000000106,
+          "documentRelativeX": 126,
+          "documentRelativeY": 464,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42537.06500001135,
+          "documentRelativeX": 125,
+          "documentRelativeY": 463,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42545.55500000424,
+          "documentRelativeX": 125,
+          "documentRelativeY": 461,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42553.450000006706,
+          "documentRelativeX": 125,
+          "documentRelativeY": 461,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42561.295000006794,
+          "documentRelativeX": 124,
+          "documentRelativeY": 460,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42569.44000000658,
+          "documentRelativeX": 124,
+          "documentRelativeY": 460,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42577.585000006366,
+          "documentRelativeX": 123,
+          "documentRelativeY": 460,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42585.97000000009,
+          "documentRelativeX": 123,
+          "documentRelativeY": 460,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42593.880000000354,
+          "documentRelativeX": 122,
+          "documentRelativeY": 460,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42601.96500000893,
+          "documentRelativeX": 120,
+          "documentRelativeY": 460,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42610.03999999957,
+          "documentRelativeX": 119,
+          "documentRelativeY": 460,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43468.310000011115,
+          "documentRelativeX": 119,
+          "documentRelativeY": 402,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43476.41500001191,
+          "documentRelativeX": 119,
+          "documentRelativeY": 401,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43485.18000000331,
+          "documentRelativeX": 121,
+          "documentRelativeY": 397,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43493.80500000552,
+          "documentRelativeX": 122,
+          "documentRelativeY": 394,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43501.22499999998,
+          "documentRelativeX": 124,
+          "documentRelativeY": 391,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43509.98500001151,
+          "documentRelativeX": 127,
+          "documentRelativeY": 383,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43517.760000002454,
+          "documentRelativeX": 130,
+          "documentRelativeY": 372,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43525.68500000052,
+          "documentRelativeX": 134,
+          "documentRelativeY": 359,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43533.225000006496,
+          "documentRelativeX": 136,
+          "documentRelativeY": 345,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43541.875000009895,
+          "documentRelativeX": 138,
+          "documentRelativeY": 331,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43549.42999999912,
+          "documentRelativeX": 139,
+          "documentRelativeY": 325,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43558.29500000982,
+          "documentRelativeX": 139,
+          "documentRelativeY": 314,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43566.05500000296,
+          "documentRelativeX": 139,
+          "documentRelativeY": 310,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43573.7850000005,
+          "documentRelativeX": 139,
+          "documentRelativeY": 304,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43583.20000000822,
+          "documentRelativeX": 139,
+          "documentRelativeY": 300,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43590.05500000785,
+          "documentRelativeX": 139,
+          "documentRelativeY": 297,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43598.695000007865,
+          "documentRelativeX": 139,
+          "documentRelativeY": 295,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43606.320000006235,
+          "documentRelativeX": 138,
+          "documentRelativeY": 294,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43615.23000001034,
+          "documentRelativeX": 138,
+          "documentRelativeY": 294,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43622.37500000629,
+          "documentRelativeX": 138,
+          "documentRelativeY": 293,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 43630.7000000088,
+          "documentRelativeX": 137,
+          "documentRelativeY": 293,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 44029.86999999848,
+          "documentRelativeX": 137,
+          "documentRelativeY": 371,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 44037.77999999875,
+          "documentRelativeX": 137,
+          "documentRelativeY": 373,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 44045.785000009346,
+          "documentRelativeX": 137,
+          "documentRelativeY": 377,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 44054.0350000083,
+          "documentRelativeX": 137,
+          "documentRelativeY": 382,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 44062.140000009094,
+          "documentRelativeX": 139,
+          "documentRelativeY": 391,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 44069.980000000214,
+          "documentRelativeX": 141,
+          "documentRelativeY": 399,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 44078.215000001364,
+          "documentRelativeX": 145,
+          "documentRelativeY": 422,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 44086.20499999961,
+          "documentRelativeX": 152,
+          "documentRelativeY": 473,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 60053.36499999976,
+          "documentRelativeX": 82,
+          "documentRelativeY": 486,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 60053.490000005695,
+          "documentRelativeX": 82,
+          "documentRelativeY": 486,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 60061.61000000429,
+          "documentRelativeX": 39,
+          "documentRelativeY": 380,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 60070.23000001209,
+          "documentRelativeX": 10,
+          "documentRelativeY": 272,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 60078.62000000023,
+          "documentRelativeX": 7,
+          "documentRelativeY": 225,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 63264.39500000561,
+          "documentRelativeX": 15,
+          "documentRelativeY": 138,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        }
+      ],
+      "throttled": [
+        {
+          "timestamp": 18159.90500000771,
+          "documentRelativeX": 886,
+          "documentRelativeY": 445,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18183.264999999665,
+          "documentRelativeX": 882,
+          "documentRelativeY": 441,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18207.795000009355,
+          "documentRelativeX": 870,
+          "documentRelativeY": 428,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18233.400000011898,
+          "documentRelativeX": 851,
+          "documentRelativeY": 409,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18256.950000009965,
+          "documentRelativeX": 834,
+          "documentRelativeY": 395,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18281.48499999952,
+          "documentRelativeX": 824,
+          "documentRelativeY": 386,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18305.375000010827,
+          "documentRelativeX": 819,
+          "documentRelativeY": 382,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18329.645000005257,
+          "documentRelativeX": 818,
+          "documentRelativeY": 382,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18510.785000005853,
+          "documentRelativeX": 818,
+          "documentRelativeY": 382,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18534.06000000541,
+          "documentRelativeX": 822,
+          "documentRelativeY": 383,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18833.71000000625,
+          "documentRelativeX": 821,
+          "documentRelativeY": 383,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18857.65000000538,
+          "documentRelativeX": 799,
+          "documentRelativeY": 383,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18882.790000003297,
+          "documentRelativeX": 748,
+          "documentRelativeY": 388,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18907.090000007884,
+          "documentRelativeX": 601,
+          "documentRelativeY": 418,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 18932.005000009667,
+          "documentRelativeX": 499,
+          "documentRelativeY": 454,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19313.29000000551,
+          "documentRelativeX": 357,
+          "documentRelativeY": 490,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19337.060000005295,
+          "documentRelativeX": 326,
+          "documentRelativeY": 434,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19362.715000010212,
+          "documentRelativeX": 278,
+          "documentRelativeY": 342,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19386.865000007674,
+          "documentRelativeX": 239,
+          "documentRelativeY": 243,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19411.220000009052,
+          "documentRelativeX": 211,
+          "documentRelativeY": 165,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19436.079999999492,
+          "documentRelativeX": 199,
+          "documentRelativeY": 138,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19459.87000000605,
+          "documentRelativeX": 190,
+          "documentRelativeY": 122,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19484.389999997802,
+          "documentRelativeX": 188,
+          "documentRelativeY": 116,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19744.690000006813,
+          "documentRelativeX": 188,
+          "documentRelativeY": 117,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19769.090000001597,
+          "documentRelativeX": 187,
+          "documentRelativeY": 149,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19792.89000001154,
+          "documentRelativeX": 220,
+          "documentRelativeY": 262,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19818.08500000625,
+          "documentRelativeX": 285,
+          "documentRelativeY": 382,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19841.270000004442,
+          "documentRelativeX": 347,
+          "documentRelativeY": 460,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 19865.700000009383,
+          "documentRelativeX": 373,
+          "documentRelativeY": 479,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 20053.565000009257,
+          "documentRelativeX": 385,
+          "documentRelativeY": 483,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42456.205000009504,
+          "documentRelativeX": 126,
+          "documentRelativeY": 493,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        },
+        {
+          "timestamp": 42480.179999998654,
+          "documentRelativeX": 127,
+          "documentRelativeY": 484,
+          "instanceOfUIEvent": true,
+          "markedAsTrusted": true
+        }
+      ]
+    }
+  },
+  "visibilityEvents": {
+    "initialState": true,
+    "finalState": true,
+    "visibilityEventCount": 6,
+    "events": [
+      {
+        "visible": false,
+        "timestamp": 12516
+      },
+      {
+        "visible": true,
+        "timestamp": 14470
+      },
+      {
+        "visible": false,
+        "timestamp": 15437
+      },
+      {
+        "visible": true,
+        "timestamp": 15980
+      },
+      {
+        "visible": false,
+        "timestamp": 20267
+      },
+      {
+        "visible": true,
+        "timestamp": 20926
+      }
+    ]
+  },
+  "wheelEvents": {
+    "events": 296,
+    "bursts": 8
+  }
+}
