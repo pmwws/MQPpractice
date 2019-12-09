@@ -255,11 +255,11 @@ document.getElementById("Add").onclick = function keys(){
         box.style.left = start + "px";
         box.style.width = width + "px";
         if(stroke.key === 1){
-            box.style.backgroundColor = "blue";
+            box.style.backgroundColor = "#8DD3C7";
         }else if(stroke.key === 2){
-            box.style.backgroundColor = "red";
+            box.style.backgroundColor = "#FFFFB3";
         }else{
-            box.style.backgroundColor = "teal";
+            box.style.backgroundColor = "#BEBADA";
         }
 
         keybox.appendChild(box);

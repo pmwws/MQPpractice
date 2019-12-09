@@ -15,7 +15,6 @@ body {
 }
 
 .window{
-    position: relative;
     left: 0px;
     top: 0px;
     width: 400px;
@@ -60,11 +59,14 @@ body {
     height: 10px;
     background-color: blue;
     padding: 0px;
+    color: white;
+    font-size: small;
+    border-radius: 2px;
 }
 #keyboard{
     height: 10px;
     width: 95%;
-    background-color: chartreuse;
+    background-color: black;
     border-radius: 5px;
     margin-bottom: 10px;
     overflow: hidden;
@@ -101,4 +103,47 @@ path {
     stroke-width: 2px;
 }
 
+.my-legend {
+    background-color: rgba(50, 54, 49, 0.98);
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+    font-family: "Courier New";
+    color: rgba(251, 255, 248, 0.98);
+
+}
+.my-legend .legend-scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    list-style: none;
+}
+.my-legend .legend-scale ul li {
+    font-size: 80%;
+    list-style: none;
+    margin-left: 0;
+    line-height: 18px;
+    margin-bottom: 2px;
+    font-family: "Courier New";
+    font-size: 90%;
+    font-weight: bold;
+    color: rgba(251, 255, 248, 0.98);
+}
+.my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: 1px solid #999;
+}
 
