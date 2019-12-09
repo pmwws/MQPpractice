@@ -99,8 +99,19 @@ svg {
     border-radius: 7px;
 }
 
-path {
-    stroke-width: 2px;
+#path1 {
+    stroke-width: 1px;
+    color: #294d91;
+}
+
+#path2 {
+    stroke-width: 1px;
+    color: #294d91;
+}
+
+#path3 {
+    stroke-width: 1px;
+    color: #294d91;
 }
 
 .my-legend {

@@ -1,39 +1,63 @@
 var win_size_dom = document.querySelector('.window_size');
-var points = [
-    [27,183],
-    [30,172],
-    [34,159],
-    [36,145],
-    [38,131],
-    [39,125],
-    [39,114],
-    [39,110],
-    [39,104],
-    [39,100],
-    [39,197],
-    [39,195],
-    [38,194],
-    [38,193],
-    [38,193],
-    [38,115],
-    [45,155],
-    [52,106],
-    [82,119],
-    [39,113],
-    [10,105],
-    [7,158],
-    [15,71],
+var points1 = [
+    [127,183],
+    [130,172],
+    [134,159],
+    [136,145],
+    [138,131],
+    [139, 145],
+    [140, 146],
+    [150, 148],
 ];
 
-var clicks = [
-    [45,193],
-    [48,115],
-    [40,155],
+var points2 = [
+    [150, 148],
+    [140, 129],
+    [138,131],
+    [139,114],
+    [139,110],
+    [125,104],
+    [139,100],
+    [168,197],
+    [199,195],
+    [177,194],
+];
+
+var points3 = [
+    [177,194],
+    [168,190],
+    [138,193],
+    [138,193],
+    [138,115],
+    [145,155],
+    [152,106],
+    [182,119],
+    [139,113],
+    [110,105],
+    [17,158],
+    [115,71],
+];
+
+var clicks1 = [
+    [150,148],
+];
+
+var clicks2 = [
+    [177,194],
+];
+
+var clicks3 = [
+    [115,71],
 ];
 
 var s = document.getElementById('s');
-var command = 'M ' + points[0][0] + " " + points[0][1] + " ";
-var path = document.getElementById("path");
+var command1 = 'M ' + points1[0][0] + " " + points1[0][1] + " ";
+var command2 = 'M ' + points2[0][0] + " " + points2[0][1] + " ";
+var command3 = 'M ' + points3[0][0] + " " + points3[0][1] + " ";
+
+var path1 = document.getElementById("path1");
+var path2 = document.getElementById("path2");
+var path3 = document.getElementById("path3");
 
 var win_size = {
     width: document.getElementById('a').style.width,
@@ -80,19 +104,21 @@ var randomPosition1 = {
     height: '200px',
     duration: 300,
     offset: '+=1000',
+    complete: function() {
+        let circles = document.getElementsByTagName("circle");
+        s.removeChild(path1);
+        s.removeChild(path2);
+        s.removeChild(path3);
+        while(circles.length !== 0){
+            s.removeChild(circles[0]);
+        }
+    }
 };
 var randomPosition2 = {
     targets: '.window',
     left: '200px',
     duration: 300,
     offset: '+=1000',
-    complete: function() {
-        let circles = document.getElementsByTagName("circle");
-        s.removeChild(path);
-        while(circles.length !== 0){
-            s.removeChild(circles[0]);
-        }
-    }
 };
 
 var win_sizeChange_fullScreen = {
@@ -127,17 +153,51 @@ var win_sizeChange_200Screen = {
 };
 
 //mouse movement
-var mouse_path = {
-    targets: "path",
+var mouse_path1 = {
+    targets: path1,
     d: function() {
-        len = points.length;
+        len = points1.length;
         for(var i = 1; i < len; i++){
-            x1 = points[i][0];
-            y1 = points[i][1];
+            x1 = points1[i][0];
+            y1 = points1[i][1];
             var newCommand = 'L ' +  x1 + " " + y1 + " ";
-            command = command.concat(newCommand);
+            command1 = command1.concat(newCommand);
         }
-        path.setAttribute("d", command);
+        path1.setAttribute("d", command1);
+    },
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: "easeInQuad",
+    duration: 4500,
+};
+
+var mouse_path2 = {
+    targets: path2,
+    d: function() {
+        len = points2.length;
+        for(var i = 1; i < len; i++){
+            x1 = points2[i][0];
+            y1 = points2[i][1];
+            var newCommand = 'L ' +  x1 + " " + y1 + " ";
+            command2 = command2.concat(newCommand);
+        }
+        path2.setAttribute("d", command2);
+    },
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: "easeInQuad",
+    duration: 4500,
+};
+
+var mouse_path3 = {
+    targets: path3,
+    d: function() {
+        len = points3.length;
+        for(var i = 1; i < len; i++){
+            x1 = points3[i][0];
+            y1 = points3[i][1];
+            var newCommand = 'L ' +  x1 + " " + y1 + " ";
+            command3 = command3.concat(newCommand);
+        }
+        path3.setAttribute("d", command3);
     },
     strokeDashoffset: [anime.setDashoffset, 0],
     easing: "easeInQuad",
@@ -153,14 +213,40 @@ function makeSVG(tag, attrs) {
     return el;
 }
 
-var mouse_click = {
+var mouse_click1 = {
     targets: "s",
     complete: function() {
-        len = clicks.length;
+        len = clicks1.length;
         for(var i = 0; i < len; i++) {
-            pos_x = clicks[i][0];
-            pos_y = clicks[i][1];
-            var click = makeSVG('circle', {cx: pos_x, cy: pos_y, r: '2',  stroke: 'blue'});
+            pos_x = clicks1[i][0];
+            pos_y = clicks1[i][1];
+            var click = makeSVG('circle', {cx: pos_x, cy: pos_y, r: '3',  stroke: '#fcc203', fill: '#fcc203'});
+            s.appendChild(click);
+        }
+    },
+};
+
+var mouse_click2 = {
+    targets: "s",
+    complete: function() {
+        len = clicks2.length;
+        for(var i = 0; i < len; i++) {
+            pos_x = clicks2[i][0];
+            pos_y = clicks2[i][1];
+            var click = makeSVG('circle', {cx: pos_x, cy: pos_y, r: '3',  stroke: '#fcc203', fill:'#fcc203'});
+            s.appendChild(click);
+        }
+    },
+};
+
+var mouse_click3 = {
+    targets: "s",
+    complete: function() {
+        len = clicks3.length;
+        for(var i = 0; i < len; i++) {
+            pos_x = clicks3[i][0];
+            pos_y = clicks3[i][1];
+            var click = makeSVG('circle', {cx: pos_x, cy: pos_y, r: '3',  stroke: '#fcc203', fill: '#fcc203'});
             s.appendChild(click);
         }
     },
@@ -177,14 +263,18 @@ const tl = anime.timeline({
 
 tl.add(initialStatus)
     .add(fullScreen)
-    .add(mouse_click)
     .add(win_sizeChange_fullScreen)
     .add(leftHalfScreen)
     .add(win_sizeChange_halfScreen)
     .add(rightHalfScreen)
+    .add(mouse_path1)
+    .add(mouse_click1)
+    .add(mouse_path2)
+    .add(mouse_click2)
+    .add(mouse_path3)
+    .add(mouse_click3)
     .add(randomPosition1)
     .add(win_sizeChange_200Screen)
-    .add(mouse_path)
     .add(randomPosition2)
 ;
 
