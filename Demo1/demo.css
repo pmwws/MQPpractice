@@ -15,6 +15,7 @@ body {
 }
 
 .window{
+    position: relative;
     left: 0px;
     top: 0px;
     width: 400px;
@@ -73,7 +74,12 @@ body {
 }
 
 /*Button style*/
-.btn {
+.btn-container {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+}
+.btn{
     background-color: #e2e2e2;
     border: none;
     color: black;
@@ -115,6 +121,7 @@ svg {
 }
 
 .my-legend {
+    display: inline-block;
     background-color: rgba(50, 54, 49, 0.98);
     width: 150px;
     border-radius: 5px;
