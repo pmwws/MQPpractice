@@ -1,53 +1,55 @@
 var win_size_dom = document.querySelector('.window_size');
 var points1 = [
-    [127,183],
-    [130,172],
-    [134,159],
-    [136,145],
-    [138,131],
-    [139, 145],
-    [140, 146],
-    [150, 148],
+    [127,383],
+    [130,372],
+    [134,359],
+    [136,345],
+    [138,331],
+    [139, 325],
+    [139, 314],
+    [139, 310],
+    [139, 304],
+    [139, 300],
 ];
 
 var points2 = [
-    [150, 148],
-    [140, 129],
-    [138,131],
-    [139,114],
-    [139,110],
-    [125,104],
-    [139,100],
-    [168,197],
-    [199,195],
-    [177,194],
+    [139, 300],
+    [139, 297],
+    [139, 295],
+    [138, 294],
+    [138, 294],
+    [138, 293],
+    [137, 293],
+    [137, 304],
+    [137, 306],
+    [137, 310],
+    [137, 315],
+    [139, 324],
+    [141, 332],
+    [145, 355],
+    [152, 406],
 ];
 
 var points3 = [
-    [177,194],
-    [168,190],
-    [138,193],
-    [138,193],
-    [138,115],
-    [145,155],
-    [152,106],
-    [182,119],
-    [139,113],
-    [110,105],
-    [17,158],
-    [115,71],
+    [152, 406],
+    [82, 419],
+    [82, 419],
+    [39, 313],
+    [10, 205],
+    [7, 158],
+    [15, 71],
 ];
 
 var clicks1 = [
-    [150,148],
+    [139,300],
 ];
 
 var clicks2 = [
-    [177,194],
+    [152,406],
 ];
 
 var clicks3 = [
-    [115,71],
+    [15,71],
 ];
 
 var s = document.getElementById('s');
@@ -340,16 +342,20 @@ document.getElementById("Add").onclick = function keys(){
         height = level * 10;
         box = document.createElement("div");
         box.setAttribute("class", "box");
+        box.setAttribute("title", "box-ctrl");
         box.style.position = "relative";
         box.style.top = height + "px"; 
         box.style.left = start + "px";
         box.style.width = width + "px";
         if(stroke.key === 1){
             box.style.backgroundColor = "#8DD3C7";
+            // box.setAttribute("title", "box-ctrl");
         }else if(stroke.key === 2){
             box.style.backgroundColor = "#FFFFB3";
+            // box.setAttribute("title", "box-shift");
         }else{
             box.style.backgroundColor = "#BEBADA";
+            // box.setAttribute("title", "box-option");
         }
 
         keybox.appendChild(box);
