@@ -342,20 +342,16 @@ document.getElementById("Add").onclick = function keys(){
         height = level * 10;
         box = document.createElement("div");
         box.setAttribute("class", "box");
-        box.setAttribute("title", "box-ctrl");
         box.style.position = "relative";
         box.style.top = height + "px"; 
         box.style.left = start + "px";
         box.style.width = width + "px";
         if(stroke.key === 1){
             box.style.backgroundColor = "#8DD3C7";
-            // box.setAttribute("title", "box-ctrl");
         }else if(stroke.key === 2){
             box.style.backgroundColor = "#FFFFB3";
-            // box.setAttribute("title", "box-shift");
         }else{
             box.style.backgroundColor = "#BEBADA";
-            // box.setAttribute("title", "box-option");
         }
 
         keybox.appendChild(box);
